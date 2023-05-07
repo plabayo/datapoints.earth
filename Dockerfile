@@ -30,7 +30,7 @@ USER app
 WORKDIR /app
 
 # Get compiled binaries
-COPY --from=builder /usr/datapoints-earth/webapp/pkg /app/
+COPY --from=builder /usr/datapoints-earth/pkg /app/
 
 EXPOSE 8080
 
