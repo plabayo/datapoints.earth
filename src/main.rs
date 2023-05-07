@@ -6,4 +6,5 @@ use perseus::prelude::*;
 pub fn main<G: Html>() -> PerseusApp<G> {
     PerseusApp::new()
         .template(crate::templates::index::get_template())
+        .error_views(ErrorViews::unlocalized_development_default())
 }

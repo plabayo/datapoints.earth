@@ -49,6 +49,8 @@ fn index_page<G: Html>(cx: Scope) -> View<G> {
 fn head(cx: Scope) -> View<SsrNode> {
     view! { cx,
         title { "📡 data 🌏" }
+        meta(charset = "UTF-8")
+        meta(name = "viewport", content = "width=device-width, initial-scale=1.0")
     }
 }
 
