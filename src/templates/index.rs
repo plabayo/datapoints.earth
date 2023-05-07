@@ -9,7 +9,7 @@ fn index_page<G: Html>(cx: Scope) -> View<G> {
                 h1 { "🌎    datapoints.earth 🌍" }
                 p {
                     "Built with "
-                    a (href = "https://github.com/plabayo/netscrape") { "FOSS" }
+                    a (href = "https://github.com/plabayo/netscrape") { "Free and Open Source Software (FOSS)" }
                     " by "
                     a (href = "https://plabayo.tech" ) { "Plabayo" }
                     " with as goal to liberate the data about our earth to help others with helping our earth."
